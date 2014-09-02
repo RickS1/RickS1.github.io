@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
   <title>Congreso</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -22,11 +21,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">PyC</a>
+      <a class="navbar-brand" href="#"><%= image_tag("logosaic.png", :alt => "saic") %></a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <%= tabs %>
-    
    <% if current_user.present? %>
    <ul class="nav navbar-nav navbar-right">
    <div class="navbar-text">Sesión como: </div>
@@ -40,16 +38,6 @@
   </div>
   </div>
 </nav>
-
-=======
-  <title>PuntoYComa</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
->>>>>>> 8c4754095a777449679288cd929082e1f534d5af
 <%= yield %>
 
 </body>

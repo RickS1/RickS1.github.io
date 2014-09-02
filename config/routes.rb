@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
+
 
   get 'ponente/ponente'
 
@@ -12,17 +12,13 @@ Rails.application.routes.draw do
   get 'congreso/congreso'
 
   devise_for :users
-=======
->>>>>>> 8c4754095a777449679288cd929082e1f534d5af
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-<<<<<<< HEAD
+
   root 'congreso#congreso'
-=======
-  # root 'welcome#index'
->>>>>>> 8c4754095a777449679288cd929082e1f534d5af
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

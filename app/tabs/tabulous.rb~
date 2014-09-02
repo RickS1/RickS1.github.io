@@ -10,6 +10,22 @@ Tabulous.setup do
       active_when { in_action('any').of_controller('congreso') }
     end
 
+    ponentes_tab do
+      text { 'Ponentes' }
+      link_path { '/ponentes/ponentes' }
+      visible_when { true }
+      enabled_when { true }
+      active_when { in_action('any').of_controller('ponente') }
+    end
+
+    agenda_tab do
+      text { 'Agenda' }
+      link_path { '/agenda/agenda' }
+      visible_when { true }
+      enabled_when { true }
+      active_when { in_action('any').of_controller('agenda') }
+    end
+
   end
 
   customize do
@@ -17,7 +33,7 @@ Tabulous.setup do
     # which class to use to generate HTML
     # :default, :html5, :bootstrap, :bootstrap_pill or :bootstrap_navbar
     # or create your own renderer class and reference it here
-    #renderer :bootstrap_navbar
+    renderer :bootstrap_navbar
 
     # whether to allow the active tab to be clicked
     # defaults to true

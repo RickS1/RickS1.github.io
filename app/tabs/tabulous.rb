@@ -10,6 +10,22 @@ Tabulous.setup do
       active_when { in_action('any').of_controller('congreso') }
     end
 
+    ponentes_tab do
+      text { 'Ponentes' }
+      link_path { '/ponente/ponente' }
+      visible_when { true }
+      enabled_when { true }
+      active_when { in_action('any').of_controller('ponente') }
+    end
+
+    agenda_tab do
+      text { 'Agenda' }
+      link_path { '/agenda/agenda' }
+      visible_when { true }
+      enabled_when { true }
+      active_when { in_action('any').of_controller('agenda') }
+    end
+
   end
 
   customize do

@@ -7,6 +7,8 @@
   <%= csrf_meta_tags %>
   <%= yield :head %>
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+snas+condensed+(light)">
 </head>
 <body>
 
@@ -23,7 +25,6 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <%= tabs %>
-    
    <% if current_user.present? %>
    <ul class="nav navbar-nav navbar-right">
    <div class="navbar-text">Sesión como: </div>
@@ -37,7 +38,6 @@
   </div>
   </div>
 </nav>
-
 <%= yield %>
 
 </body>

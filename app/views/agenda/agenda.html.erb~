@@ -7,7 +7,7 @@
  <div style="padding-left:3cm;">
  <%= image_tag("iconoagenda.png", :alt => "agenda") %><br>
  </div>
- <div class="row" style="padding-left:3cm;">
+ <div class="row" style="padding-left:3.5cm;">
  <div class="col-sm-2 b1">
  ·
  </div>

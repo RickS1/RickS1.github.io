@@ -2,9 +2,15 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+
 gem 'rails', '4.1.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
+
+gem 'rails', '4.1.4'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -14,12 +20,14 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
+
 #Uso de devise para el control de registro
 gem 'devise'
 gem 'omniauth', '> 1.0.0'
 
 #Uso de bootstrap-sass para dar diseño responsivo
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 #Uso de tabulous para generar navbars agradables
 gem 'tabulous'
@@ -29,6 +37,7 @@ gem 'google_calendar'
 #Uso de eventbrite-client para registrar eventos
 #gem 'eventbrite-client'
 
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -37,6 +46,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
+
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
@@ -53,3 +63,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin]
