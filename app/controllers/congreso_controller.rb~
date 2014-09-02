@@ -1,0 +1,4 @@
+class CongresoController < ApplicationController
+  def congreso
+  end
+end

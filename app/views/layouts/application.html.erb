@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Congreso</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= yield :head %>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+snas+condensed+(light)">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">PyC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <%= tabs %>
+    
+   <% if current_user.present? %>
+   <ul class="nav navbar-nav navbar-right">
+   <div class="navbar-text">Sesión como: </div>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><%= image_tag(current_user.logo_url(:small_thumb).to_s) %><%= "  "+current_user.nombre %><span class="caret"></span></a>
+   <ul class="dropdown-menu" role="menu">
+     <li><a href="/users/edit" >Configuración</a></li>
+     <li><a href="/users/sign_out" >Cerrar sesión</a></li>
+  </ul></li>
+ </ul>
+   <% end %>
+  </div>
+  </div>
+</nav>
+
+<%= yield %>
+
+</body>
+</html>
