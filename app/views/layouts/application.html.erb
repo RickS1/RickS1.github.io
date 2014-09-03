@@ -8,7 +8,7 @@
   <%= yield :head %>
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+snas+condensed+(light)">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
 </head>
 <body>
 
@@ -23,7 +23,7 @@
       </button>
       <a class="navbar-brand" href="#"><%= image_tag("logosaic.png", :alt => "saic") %></a>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="font-family:Open Sans Condensed;font-size:20pt;">
       <%= tabs %>
    <% if current_user.present? %>
    <ul class="nav navbar-nav navbar-right">

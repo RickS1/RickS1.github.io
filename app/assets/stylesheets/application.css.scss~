@@ -1,1 +1,4 @@
+$navbar-height: 65px;
+
+@import "bootstrap-sprockets";
 @import "bootstrap";

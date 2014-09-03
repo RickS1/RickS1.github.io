@@ -1,23 +1,37 @@
 <div class="row">
-<div class="col-sm-5" style="background-color:#00C9FF;height:47.5em;">
+<div class="col-sm-5" style="background-color:#00C9FF;height:38em;">
  <div style="padding-top:4cm;font-family:Actor;font-size:70pt;color:#FFFFFF;">
- <div style="padding-left:1cm;">
+ <div style="padding-left:1.5cm;">
   Agenda
  </div>
- <div style="padding-left:3cm;">
+ <div style="padding-left:3.5cm;">
  <%= image_tag("iconoagenda.png", :alt => "agenda") %><br>
  </div>
- <div class="row" style="padding-left:3.5cm;">
- <div class="col-sm-2 b1">
- ·
- </div>
- <div class="col-sm-2 b2"> ·
- </div>
- <div class="col-sm-2 b3"> ·
-  </div>
+ <div style="padding-left:4cm;">
+   · · ·
  </div>
 </div>
 <div class="col-sm-7">
 
 </div>
+</div>
+
+<div class="row">
+
+<div class="col-sm-12" style="background-color:#666666;height:9.5em;">
+<div class="row">
+<div class="col-sm-4">
+</div>
+<div class="col-sm-4" style="padding-top:1cm;color:#666666;">
+<%= image_tag('twittercontacto.png', :alt => 'twitter') %>
+<%= "  .  . " %>
+<%= image_tag('facebookcontacto.png', :alt => 'facebook') %>
+<%= "  .  . " %>
+<%= image_tag('googlecontacto.png', :alt => 'google') %>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+
 </div>

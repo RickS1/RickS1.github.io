@@ -4,18 +4,10 @@
   Congreso
  <div style="padding-left:3cm;">
  <%= image_tag("logopantallacongreso.png", :alt => "pyc") %><br>
- <div class="row">
- <div class="col-sm-2 b1">
- ·
  </div>
- <div class="col-sm-2 b2"> ·
- </div>
- <div class="col-sm-2 b3"> ·
-  </div>
- <div class="col-sm-2 b4"> ·
- </div>
- </div>
-</div>
+ <div style="padding-left:2.8cm;">
+ · · · ·
+
 </div>
 <div class="col-sm-7">
 
