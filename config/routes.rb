@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  get 'main/index'
+
   get 'ponente/ponente'
 
   get 'contacto/contacto'
@@ -10,6 +12,8 @@ Rails.application.routes.draw do
   get 'agenda/agenda'
 
   get 'congreso/congreso'
+ 
+  get 'main/index'
 
   devise_for :users
 
@@ -18,7 +22,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
 
-  root 'congreso#congreso'
+  root 'main#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

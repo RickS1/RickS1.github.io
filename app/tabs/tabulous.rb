@@ -1,13 +1,21 @@
 Tabulous.setup do
 
   tabs do
+
+    jok_tab do
+      text {''}
+      link_path {'/congreso/congreso'}
+      visible_when { false }
+      enabled_when { true }
+      active_when {  in_action('any').of_controller('main') }
+    end
     
     main_tab do
       text {'Sobre Punto y Coma'}
-      link_path {root_path}
+      link_path {'/congreso/congreso'}
       visible_when { true }
       enabled_when { true }
-      active_when { in_action('any').of_controller('congreso') }
+      active_when {  in_action('any').of_controller('congreso') }
     end
 
     ponentes_tab do
