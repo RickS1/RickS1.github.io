@@ -1,16 +1,39 @@
+<% content_for :head do -%>
+
+<script>
+$(document).on("click","#bu1",function(){
+$("#bu1").css("color","#065466");
+$("#bu2").css("color","#FFFFFF");
+$("#bu3").css("color","#FFFFFF");
+});
+$(document).on("click","#bu2",function(){
+$("#bu2").css("color","#065466");
+$("#bu1").css("color","#FFFFFF");
+$("#bu3").css("color","#FFFFFF");
+});
+$(document).on("click","#bu3",function(){
+$("#bu3").css("color","#065466");
+$("#bu2").css("color","#FFFFFF");
+$("#bu1").css("color","#FFFFFF");
+});
+</script>
+<% end %>
 <div class="row">
-<div class="col-sm-5" style="background-color:#00C9FF;height:38em;">
- <div style="padding-top:4cm;font-family:Actor;font-size:70pt;color:#FFFFFF;">
- <div style="padding-left:1.5cm;">
-  Agenda
- </div>
- <div style="padding-left:3.5cm;">
- <%= image_tag("iconoagenda.png", :alt => "agenda") %><br>
- </div>
- <div style="padding-left:4cm;">
-   · · ·
- </div>
-</div>
+  <div class="col-sm-5" style="background-color:#00C9FF;height:38em;">
+    <div style="padding-top:4cm;font-family:Actor;font-size:70pt;color:#FFFFFF;">
+      <div style="padding-left:1.5cm;">
+        Agenda
+      </div>
+      <div style="padding-left:3.5cm;">
+        <%= image_tag("iconoagenda.png", :alt => "agenda") %><br>
+      </div>
+      <div style="padding-left:3.3cm;">
+         <button class="btn2" id="bu1">·</button> 
+         <button class="btn2" id="bu2">·</button>
+         <button class="btn2" id="bu3">·</button> 
+      </div>
+    </div>
+  </div>
 <div class="col-sm-7">
 
 </div>
@@ -22,7 +45,7 @@
 <div class="row">
 <div class="col-sm-4">
 </div>
-<div class="col-sm-4" style="padding-top:1cm;color:#666666;">
+<div class="col-sm-4" style="padding-top:1cm;padding-left:2cm;color:#666666;">
 <%= image_tag('twittercontacto.png', :alt => 'twitter') %>
 <%= "  .  . " %>
 <%= image_tag('facebookcontacto.png', :alt => 'facebook') %>

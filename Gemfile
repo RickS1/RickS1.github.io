@@ -18,6 +18,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'rails_12factor', group: :production
 
+gem 'eventbrite_api'
+
 
 #Uso de devise para el control de registro
 gem 'devise'
@@ -29,8 +31,6 @@ gem 'autoprefixer-rails'
 
 #Uso de tabulous para generar navbars agradables
 gem 'tabulous'
-
-gem 'google_calendar'
 
 #Uso de eventbrite-client para registrar eventos
 #gem 'eventbrite-client'
@@ -61,8 +61,6 @@ gem 'unicorn'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo'
 
 ruby '2.1.2'
