@@ -11,7 +11,8 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
 </head>
 <body <%= yield :body %>>
-
+<div class="row">
+<div class="col-sm-12">
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
      <div class="navbar-header">
@@ -21,13 +22,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/congreso/index"><%= image_tag("logosaic.png", :alt => "saic") %></a>
+      <a class="navbar-brand" href="/main/index"><%= image_tag("logosaic.png", :alt => "saic") %></a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="font-family:Open Sans Condensed;font-size:20pt;">
       <%= tabs %>
   </div>
   </div>
 </nav>
+</div>
+</div>
 
 <%= yield %>
 
