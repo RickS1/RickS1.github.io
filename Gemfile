@@ -23,7 +23,10 @@ gem 'eventbrite_api'
 
 #Uso de devise para el control de registro
 gem 'devise'
-gem 'omniauth', '> 1.0.0'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'omniauth-gplus'
 
 #Uso de bootstrap-sass para dar diseño responsivo
 gem 'bootstrap-sass', '~> 3.2.0'

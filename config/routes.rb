@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-
   get 'main/index'
 
   get 'ponente/ponente'
@@ -15,7 +14,13 @@ Rails.application.routes.draw do
  
   get 'main/index'
 
-  devise_for :users
+  
+  
+  devise_scope :user do
+    match "auth/:provider/callback" => "sessions#create", :via => :get
+  end
+
+  devise_for :users, :controllers => {:omniauth_callbacks => "omniauth_callbacks" }
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

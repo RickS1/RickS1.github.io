@@ -18,12 +18,13 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'rails_12factor', group: :production
 
-gem 'eventbrite-api'
+gem 'eventbrite_api'
 
 
 #Uso de devise para el control de registro
 gem 'devise'
-gem 'omniauth', '> 1.0.0'
+gem 'omniauth'
+gem 'omniauth-twitter'
 
 #Uso de bootstrap-sass para dar diseño responsivo
 gem 'bootstrap-sass', '~> 3.2.0'

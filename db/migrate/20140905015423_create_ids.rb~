@@ -1,0 +1,12 @@
+class CreateIds < ActiveRecord::Migration
+  def change
+    create_table :ids do |t|
+      t.belongs_to :user
+      t.string :provider
+      t.string :uid
+      t.string :name
+
+      t.timestamps
+    end
+  end
+end
