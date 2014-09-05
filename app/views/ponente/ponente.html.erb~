@@ -16,7 +16,7 @@
 <div class="col-sm-4">
 </div>
 <div class="col-sm-4" style="padding-top:1cm;padding-left:2.4cm;color:#666666;">
-<a href='/auth/twitter/callback'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
+<a href='/users/auth/twitter/callback'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <%= image_tag('facebookcontacto.png', :alt => 'facebook') %>
 <%= "  .  . " %>

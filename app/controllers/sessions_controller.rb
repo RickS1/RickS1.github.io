@@ -1,6 +1,6 @@
 class SessionsController < Devise::SessionsController
   def create
-    @user = User.where(auth_hash: auth_hash).first_or_create(auth_hash: auth_hash)
+    @user = User.find_for_twitter_oauth(auth_hash)
     redirect_to '/'
   end
 
