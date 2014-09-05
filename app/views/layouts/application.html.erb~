@@ -2,6 +2,13 @@
 <html>
 <head>
   <title>Congreso</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= yield :head %>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
   <style>
 .btn2{
 border-style:solid;
@@ -34,13 +41,14 @@ color: #000000;
 font-size: 20pt;
 font-family: Actor;
 padding-top: 1cm;
-width:540px; 
-height:400px;
+width:510px; 
+height:350px;
 }
 </style>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es">
 </script>
 <script>
+var activo = false;
 $(document).on("click","#b1",function(){
   $("#b1").css("color","#840606");
   $("#b2").css("color","#FFFFFF");
@@ -56,6 +64,7 @@ $(document).on("click","#b2",function(){
   $("#b4").css("color","#FFFFFF");
   $("#titulo").text("Historia");
   $("#contenido").text("Texto de prueba 1");
+  $("#contenido").css("background-color","#FFFFFF");
  });
 $(document).on("click","#b3",function(){
   $("#b3").css("color","#840606");
@@ -64,6 +73,7 @@ $(document).on("click","#b3",function(){
   $("#b4").css("color","#FFFFFF");
   $("#titulo").text("Misión");
   $("#contenido").text("Texto de prueba 2");
+  $("#contenido").css("background-color","#FFFFFF");
  });
 $(document).on("click","#b4",function(){
   $("#b4").css("color","#840606");
@@ -72,7 +82,16 @@ $(document).on("click","#b4",function(){
   $("#b1").css("color","#FFFFFF");
   $("#titulo").text("Metas");
   $("#contenido").text("Texto de prueba 3");
+  $("#contenido").css("background-color","#FFFFFF");
  });
+
+$(document).on("mouseover","div",function(){
+ if (activo == false) { 
+   $("#b1").trigger("click");
+   activo = true; }
+  else if (activo == true && !($("#contenido").html().trim())){
+   $("#b1").trigger("click");} })
+
 
 function initialize() { 
        var myLatlng5 = new google.maps.LatLng(19.326654, -99.186870);
@@ -126,16 +145,11 @@ $("#bu2").css("color","#FFFFFF");
 $("#bu1").css("color","#FFFFFF");
 });
 </script>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <%= yield :head %>
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
 </head>
 <body <%= yield :body %>>
 
+<div class="row">
+<div class="col-sm-12">
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
      <div class="navbar-header">
@@ -152,7 +166,7 @@ $("#bu1").css("color","#FFFFFF");
   </div>
   </div>
 </nav>
-
+</div></div>
 <%= yield %>
 
 </body>
