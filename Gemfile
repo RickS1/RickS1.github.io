@@ -26,7 +26,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
-gem 'omniauth-gplus'
+gem 'omniauth-googleplus'
 
 #Uso de bootstrap-sass para dar diseño responsivo
 gem 'bootstrap-sass', '~> 3.2.0'
