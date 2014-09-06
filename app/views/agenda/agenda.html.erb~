@@ -1,40 +1,25 @@
 <div class="row" style="width:1004px;">
   <div class="col-sm-5" style="background-color:#00C9FF;height:38em;">
-    <div style="padding-top:4cm;font-family:Actor;font-size:70pt;color:#FFFFFF;">
-      <div style="padding-left:1.5cm;">
+    <div id="lateral">
         Agenda
-      </div>
-      <div style="padding-left:3.5cm;">
         <%= image_tag("iconoagenda.png", :alt => "agenda") %><br>
-      </div>
-      <div style="padding-left:3.3cm;">
          <button class="btn2" id="bu1">·</button> 
          <button class="btn2" id="bu2">·</button>
          <button class="btn2" id="bu3">·</button> 
-      </div>
-    </div>
   </div>
 <div class="col-sm-7">
 
 </div>
 </div>
 
-<div class="row" style="width:1004px;">
+  $("#pon2").html("<%= image_tag('HW_POS_RGB_Vertical.jpg', :alt => 'huawei', :width => 150, :height => 90 ) %><div id='texto'>Huawei</div>");
+  $("#pon1").html("<%= image_tag('GDG IPN Circle.png', :alt => 'ipn', :width => 150, :height => 90 ) %><div id='texto'>GDG IPN</div>");
+  $("#pon3").html("<%= image_tag('ibm_sfondo.png', :alt => 'ibm', :width => 150, :height => 90 ) %><div id='texto'>Cisco</div>");
+  $("#pon4").html("<%= image_tag('intel.png', :alt => 'intel', :width => 150, :height => 90 ) %><div id='texto'>Intel</div>");
 
-<div class="col-sm-12" style="background-color:#666666;height:9.5em;">
-<div class="row">
-<div class="col-sm-4">
-</div>
-<div class="col-sm-4" style="padding-top:1cm;padding-left:2cm;color:#666666;">
-<a href='/users/auth/twitter'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
-<%= "  .  . " %>
-<a href="/users/auth/facebook"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
-<%= "  .  . " %>
-<a href="/users/auth/gplus"><%= image_tag('googlecontacto.png', :alt => 'google') %></a>
-</div>
-<div class="col-sm-4">
-</div>
-</div>
-</div>
 
-</div>
+
+  $("#pon1").html("<%= image_tag('031-AMD-C-BLACK.png', :alt => 'amd', :width => 150, :height => 90 ) %><div id='texto'>AMD</div>");
+  $("#pon2").html("<%= image_tag('Autodesk_Logo.png', :alt => 'autodesk', :width => 150, :height => 90 ) %><div id='texto'>Autodesk</div>");
+  $("#pon3").html("<%= image_tag('cisco_logo.png', :alt => 'cisco', :width => 150, :height => 90 ) %><div id='texto'>Cisco</div>");
+  $("#pon4").html("<%= image_tag('firefox_logo-only_RGB.png', :alt => 'firefox', :width => 150, :height => 90 ) %><div id='texto'>Firefox</div>");

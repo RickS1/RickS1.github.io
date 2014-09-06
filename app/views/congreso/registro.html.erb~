@@ -1,0 +1,3 @@
+<% content_for :body do -%>
+  background="/images/2.jpg"
+<% end %>

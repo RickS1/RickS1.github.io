@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'registro/registro'
+
   get 'main/index'
 
   get 'ponente/ponente'
@@ -13,12 +15,10 @@ Rails.application.routes.draw do
   get 'congreso/congreso'
  
   get 'main/index'
-
-  
   
   devise_scope :user do
     match "/users/auth/:provider/callback" => "sessions#create", :via => [:get, :post]
-    match "/signout" => "sessions#destroy", :via => :delete
+    match "/signout" => "sessions#destroy", :via => :get
   end
 
   devise_for :users, :controllers => {:omniauth_callbacks => "omniauth_callbacks" }

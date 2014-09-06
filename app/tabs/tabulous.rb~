@@ -5,7 +5,7 @@ Tabulous.setup do
     jok_tab do
       text {''}
       link_path {'/congreso/congreso'}
-      visible_when { true }
+      visible_when { false }
       enabled_when { true }
       active_when {  in_action('any').of_controller('main') }
     end

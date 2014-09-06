@@ -34,6 +34,14 @@ Tabulous.setup do
       active_when { in_action('any').of_controller('agenda') }
     end
 
+    registro_tab do
+      text { 'Registrarse' }
+      link_path { '/registro/registro' }
+      visible_when { !current_user.present? }
+      enabled_when { true }
+      active_when { in_action('any').of_controller('registro') }
+    end
+
   end
 
   customize do

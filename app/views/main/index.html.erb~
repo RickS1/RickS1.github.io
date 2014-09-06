@@ -17,22 +17,3 @@
 </div>
 
 </div>
-<div class="row" style="width:1004px;padding-top:0.5cm;">
-
-<div class="col-sm-12" style="background-color:#666666;height:9.5em;">
-<div class="row">
-<div class="col-sm-4">
-</div>
-<div class="col-sm-4" style="padding-top:1cm;padding-left:2cm;color:#666666;">
-<a href='/users/auth/twitter'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
-<%= "  .  . " %>
-<a href="/users/auth/facebook"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
-<%= "  .  . " %>
-<%= image_tag('googlecontacto.png', :alt => 'google') %>
-</div>
-<div class="col-sm-4">
-</div>
-</div>
-</div>
-
-</div>
