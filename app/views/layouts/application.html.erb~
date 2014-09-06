@@ -63,8 +63,8 @@ color: #000000;
 font-size: 20pt;
 font-family: Actor;
 padding-top: 1cm;
-width:510px; 
 height:350px;
+text-align: center;
 }
 #lateral{
 padding-top:4cm;
@@ -155,7 +155,12 @@ $(document).on("click","#bt4",function(){
   $("#bt2").css("color","#FFFFFF");
   $("#bt3").css("color","#FFFFFF");
   $("#bt1").css("color","#FFFFFF");
-  $("#bt5").css("color","#FFFFFF");});
+  $("#bt5").css("color","#FFFFFF");
+  $("#pon1").html("<img alt='microsoft' height='90' src='/images/microsoft.png' width='150' /><div id='texto'>Microsoft</div>");
+  $("#pon2").html("<img alt='opensuse' height='90' src='/images/openSUSE_logo.png' width='150' /><div id='texto'>openSUSE</div>");
+  $("#pon3").html("<img alt='oracle' height='90' src='/images/Oracle.png' width='150' /><div id='texto'>Oracle</div>");
+  $("#pon4").html("<img alt='gsa' height='90' src='/images/Student_Ambassador_Icon.png' width='150' /><div id='texto'>Google Student Ambassador</div>");
+});
 
 $(document).on("click","#bt5",function(){
   $("#bt5").css("color","#5B5904");
@@ -253,7 +258,7 @@ $("#bu1").css("color","#FFFFFF");
   </div>
 </nav>
 <%= yield %>
-<div class="row" style="width:1004px;">
+<div class="row">
 
 <div class="col-sm-12" style="background-color:#666666;height:9.5em;">
 <div class="row">

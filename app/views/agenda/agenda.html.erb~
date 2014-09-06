@@ -1,4 +1,4 @@
-<div class="row" style="width:1004px;">
+<div class="row">
   <div class="col-sm-5" style="background-color:#00C9FF;height:38em;">
     <div id="lateral">
         Agenda
@@ -6,20 +6,16 @@
          <button class="btn2" id="bu1">·</button> 
          <button class="btn2" id="bu2">·</button>
          <button class="btn2" id="bu3">·</button> 
+    </div>
   </div>
-<div class="col-sm-7">
-
+  <div class="col-sm-7" style="padding-top:6em;">
+    <div class="row" style="text-align:center;">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-10 well" style="font-family:Actor;color:#065466;font-size:100pt;height:1em;line-height:0.4em;" id="dia">
+      </div>
+      <div class="col-sm-1">
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-
-  $("#pon2").html("<%= image_tag('HW_POS_RGB_Vertical.jpg', :alt => 'huawei', :width => 150, :height => 90 ) %><div id='texto'>Huawei</div>");
-  $("#pon1").html("<%= image_tag('GDG IPN Circle.png', :alt => 'ipn', :width => 150, :height => 90 ) %><div id='texto'>GDG IPN</div>");
-  $("#pon3").html("<%= image_tag('ibm_sfondo.png', :alt => 'ibm', :width => 150, :height => 90 ) %><div id='texto'>Cisco</div>");
-  $("#pon4").html("<%= image_tag('intel.png', :alt => 'intel', :width => 150, :height => 90 ) %><div id='texto'>Intel</div>");
-
-
-
-  $("#pon1").html("<%= image_tag('031-AMD-C-BLACK.png', :alt => 'amd', :width => 150, :height => 90 ) %><div id='texto'>AMD</div>");
-  $("#pon2").html("<%= image_tag('Autodesk_Logo.png', :alt => 'autodesk', :width => 150, :height => 90 ) %><div id='texto'>Autodesk</div>");
-  $("#pon3").html("<%= image_tag('cisco_logo.png', :alt => 'cisco', :width => 150, :height => 90 ) %><div id='texto'>Cisco</div>");
-  $("#pon4").html("<%= image_tag('firefox_logo-only_RGB.png', :alt => 'firefox', :width => 150, :height => 90 ) %><div id='texto'>Firefox</div>");

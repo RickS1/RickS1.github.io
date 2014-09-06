@@ -1,13 +1,13 @@
 <div class="row" style="width:1004px;">
   <div class="col-sm-7">
     <div class="row" style="padding-top:65px;">
-      <div class="col-sm-6 well" >
+      <div class="col-sm-6 well" id="pon1" >
         <%= image_tag("031-AMD-C-BLACK.png", :alt => "amd", :width => 150, :height => 90 ) %>
         <div id="texto">
          AMD
         </div>
       </div>
-      <div class="col-sm-6 well" >
+      <div class="col-sm-6 well" id="pon2" >
         <%= image_tag("Autodesk_Logo.png", :alt => "autodesk", :width => 150, :height => 90 ) %>
         <div id="texto">
          Autodesk
@@ -15,13 +15,13 @@
       </div>
     </div>
     <div class="row" >
-      <div class="col-sm-6 well" >
+      <div class="col-sm-6 well" id="pon3" >
         <%= image_tag("cisco_logo.png", :alt => "cisco", :width => 150, :height => 90 ) %>
         <div id="texto">
          Cisco
         </div>
       </div>
-      <div class="col-sm-6 well" >
+      <div class="col-sm-6 well" id="pon4" >
         <%= image_tag("firefox_logo-only_RGB.png", :alt => "autodesk", :width => 150, :height => 90 ) %>
         <div id="texto">
          Firefox

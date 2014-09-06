@@ -1,6 +1,6 @@
 <div class="row" style="width:1004px;">
   <div class="col-sm-5" style="background-color:#FF0000;height:38em;">
-    <div id="lateral" style="color:#FFFFFF;">
+    <div id="lateral">
      Congreso
        <%= image_tag("logopantallacongreso.png", :alt => "pyc") %><br>
        <button class="btn1" id="b1" style="color:#840606;">·</button> 

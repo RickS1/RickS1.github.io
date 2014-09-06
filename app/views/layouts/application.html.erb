@@ -63,8 +63,8 @@ color: #000000;
 font-size: 20pt;
 font-family: Actor;
 padding-top: 1cm;
-width:510px; 
 height:350px;
+text-align: center;
 }
 #lateral{
 padding-top:4cm;
@@ -156,7 +156,7 @@ $(document).on("click","#bt4",function(){
   $("#bt3").css("color","#FFFFFF");
   $("#bt1").css("color","#FFFFFF");
   $("#bt5").css("color","#FFFFFF");
-  $("#pon1").html("<img alt='microsoft' height='90' src='/images/GDG microsoft.png' width='150' /><div id='texto'>Microsoft</div>");
+  $("#pon1").html("<img alt='microsoft' height='90' src='/images/microsoft.png' width='150' /><div id='texto'>Microsoft</div>");
   $("#pon2").html("<img alt='opensuse' height='90' src='/images/openSUSE_logo.png' width='150' /><div id='texto'>openSUSE</div>");
   $("#pon3").html("<img alt='oracle' height='90' src='/images/Oracle.png' width='150' /><div id='texto'>Oracle</div>");
   $("#pon4").html("<img alt='gsa' height='90' src='/images/Student_Ambassador_Icon.png' width='150' /><div id='texto'>Google Student Ambassador</div>");
@@ -217,16 +217,19 @@ $(document).on("click","#bu1",function(){
 $("#bu1").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu3").css("color","#FFFFFF");
+$("#dia").text("17");
 });
 $(document).on("click","#bu2",function(){
 $("#bu2").css("color","#065466");
 $("#bu1").css("color","#FFFFFF");
 $("#bu3").css("color","#FFFFFF");
+$("#dia").text("18");
 });
 $(document).on("click","#bu3",function(){
 $("#bu3").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu1").css("color","#FFFFFF");
+$("#dia").text("19");
 });
 </script>
 </head>
@@ -258,7 +261,7 @@ $("#bu1").css("color","#FFFFFF");
   </div>
 </nav>
 <%= yield %>
-<div class="row" style="width:1004px;">
+<div class="row">
 
 <div class="col-sm-12" style="background-color:#666666;height:9.5em;">
 <div class="row">
