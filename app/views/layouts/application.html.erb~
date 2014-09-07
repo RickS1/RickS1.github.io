@@ -282,7 +282,31 @@ $("#p13").css('visibility','hidden');
 </script>
 </head>
 <body <%= yield :body %>>
-
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/main/index" style="padding-bottom:1em;"><%= image_tag("logosaic.png", :alt => "saic") %></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="font-family:Open Sans Condensed;font-size:20pt;">
+      <%= tabs %>
+  <% if current_user.present? %>
+   <ul class="nav navbar-nav navbar-right" style="height:1cm">
+   <li style="padding-top:0.3cm;">Hola, </li>
+<li class="nav dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="height:1.6cm;"><%= current_user.name %><span class="caret"></span></a>
+   <ul class="dropdown-menu" role="menu">
+     <li><a href="/users/sign_out" style="font-size:20pt;font-family:Actor;" >Cerrar sesión</a></li>
+  </ul></li>
+ </ul>
+   <% end %>
+  </div>
+  </div>
+</nav>
 
 <%= yield %>
 <div class="row">
