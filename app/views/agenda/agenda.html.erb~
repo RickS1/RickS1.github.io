@@ -8,19 +8,21 @@
          <button class="btn2" id="bu3">·</button> 
     </div>
   </div>
-  <div class="col-sm-7" style="padding-top:6em;height:38em;overflow-y:scroll;">
+  <div class="col-sm-7" style="padding-top:6em;height:38em;">
     <div class="row" style="text-align:center;">
       <div class="col-sm-1">
       </div>
       <div class="col-sm-10 well" style="font-family:Actor;color:#065466;font-size:100pt;height:1em;line-height:0.4em;" id="dia">
         <span>17</span>
-        <div style="font-size:10pt;padding-left:7cm;">
-          Facultad de Ciencias
+        <div style="font-size:20pt;padding-left:7cm;line-height:0.4em;position:relative;top:-2em;">
+          Facultad <br><br><br>de <br><br><br>Ciencias
         </div>
       </div>
       <div class="col-sm-1">
       </div>
     </div>
+   <div class="row" style="overflow-y:scroll;height:20em;">
+   <div class="col-sm-12">
     <div class="row" style="text-align:center;font-size:10pt;font-family:Actor;" id="p1">
       <div class="col-sm-4 well well-sm" style="line-height:0.4em;">
       Presentación Punto y Coma
@@ -176,6 +178,8 @@
       <br><br>17:30 - 18:00<br><br>
       </div>
   </div>
+  </div>
+</div>
 
 
 </div>

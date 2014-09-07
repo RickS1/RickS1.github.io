@@ -217,7 +217,7 @@ $(document).on("click","#bu1",function(){
 $("#bu1").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu3").css("color","#FFFFFF");
-$("#dia").html('<span>17</span><div style="font-size:20pt;padding-left:7cm;line-height:0.4em;">Facultad de <br><br><br>Ciencias</div>');
+$("#dia").html('<span>17</span><div style="font-size:20pt;padding-left:7cm;line-height:0.4em;position:relative;top:-1.5em;">Facultad <br><br><br>de <br><br><br>Ciencias</div>');
 $("#p1").html('      <div class="col-sm-4 well well-sm" style="line-height:0.4em;">Presentación Punto y Coma</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">SAIC</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">09:00 - 10:00</div>');
 $("#p2").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Inauguración</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">UNAM</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
 $("#p3").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">IBM</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">10:30 - 11:30</div>');
@@ -240,7 +240,7 @@ $(document).on("click","#bu2",function(){
 $("#bu2").css("color","#065466");
 $("#bu1").css("color","#FFFFFF");
 $("#bu3").css("color","#FFFFFF");
-$("#dia").html('<span>18</span><div style="font-size:20pt;padding-left:7cm;line-height:0.4em;">Facultad de<br><br><br> Ingeniería</div>');
+$("#dia").html('<span>18</span><div style="font-size:20pt;padding-left:7cm;line-height:0.4em;position:relative;top:-1.5em;">Facultad<br><br><br> de<br><br><br> Ingeniería</div>');
 $("#p1").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Lightning talk 1</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">Tech MX</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
 $("#p2").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">Lab PLC</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">10:30 - 11:00</div>');
 $("#p3").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Internet de las cosas y<br><br><br> wearables</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;"><br><br>Intel<br><br></div><div class="col-sm-4 well well-sm" style="line-height:0.4em;"><br><br>11:00 - 12:00<br><br></div>');
@@ -259,7 +259,7 @@ $(document).on("click","#bu3",function(){
 $("#bu3").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu1").css("color","#FFFFFF");
-$("#dia").html('<span>19</span><div style="font-size:15pt;padding-left:7.5cm;line-height:0.4em;position:fixed;top:5em;">Posgrado de <br><br><br>Ingeniería<br><br><br>Facultad de <br><br><br>Contaduría y <br><br><br>Administración</div>');
+$("#dia").html('<span>19</span><div style="font-size:15pt;padding-left:7.5cm;line-height:0.4em;position:relative;top:-2.7em;">Posgrado de <br><br><br>Ingeniería<br><br><br>Facultad de <br><br><br>Contaduría y <br><br><br>Administración</div>');
 $("#p1").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Las sociedades son <br><br><br>importantes ¿Por qué?</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;"><br><br>Sociedades FI<br><br></div><div class="col-sm-4 well well-sm" style="line-height:0.4em;"><br><br>10:00 - 10:30<br><br></div>');
 $("#p2").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Lightning talk 2</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">PROTECO</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">10:30 - 11:00</div>');
 $("#p3").html('<div class="col-sm-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">OpenStor</div><div class="col-sm-4 well well-sm" style="line-height:0.4em;">11:00 - 12:00</div>');
@@ -317,6 +317,12 @@ $("#p13").css('visibility','hidden');
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
 <%= "  .  . " %>
 <a href="https://plus.google.com/+Saic-unam/posts"><%= image_tag('googlecontacto.png', :alt => 'google') %></a>
+<div id="correo" style="padding-top:0.6em;">
+<a href="www.saic-unam.mx">www.saic-unam.mx</a>
+</div>
+<div id="correo" style="padding-top:0.2em;">
+<a href="mailto:contacto@saic-unam.com">contacto@saic-unam.com</a>
+</div>
 </div>
 <div class="col-sm-4">
 </div>
