@@ -10,6 +10,10 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
   <style>
+img {
+height: auto;
+max-width: 100%;
+}
 button{
 height:2cm;
 }
@@ -278,7 +282,6 @@ $("#p13").css('visibility','hidden');
 </script>
 </head>
 <body <%= yield :body %>>
-
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
      <div class="navbar-header">
@@ -304,6 +307,7 @@ $("#p13").css('visibility','hidden');
   </div>
   </div>
 </nav>
+
 <%= yield %>
 <div class="row">
 
