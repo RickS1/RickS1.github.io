@@ -15,14 +15,15 @@ height: auto;
 max-width: 100%;
 }
 button{
-height:8vw;
+font-size:10vmax;
+height:8vmax;
 }
 .btn2{
 border-style:solid;
 border-color:#00C9FF #00C9FF;
 background-color:#00C9FF;
 font-family:Actor;
-font-size:10vmin;
+font-size:10vmax;
 color:#FFFFFF;
 }
 
@@ -31,7 +32,7 @@ border-style:solid;
 border-color:#FFEB00 #FFEB00;
 background-color:#FFEB00;
 font-family:Actor;
-font-size:10vmin;
+font-size:10vmax;
 color:#FFFFFF;
 }
 
@@ -52,7 +53,7 @@ border-style:solid;
 border-color:#FF0000 #FF0000;
 background-color:#FF0000;
 font-family:Actor;
-font-size:10vmin;
+font-size:10vmax;
 color:#FFFFFF;
 }
 #titulo{
