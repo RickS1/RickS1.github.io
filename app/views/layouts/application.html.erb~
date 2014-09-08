@@ -15,7 +15,8 @@ height: auto;
 max-width: 100%;
 }
 button{
-height:13vmin;
+height:50px;
+
 }
 .btn2{
 border-style:solid;
@@ -37,8 +38,8 @@ color:#FFFFFF;
 
 .col-sm-6.well{
 text-align: center;
-height:20vmax;
-width:50%;
+height:40vh;
+width:58vw;
 display: table-cell;
 
 }
@@ -142,10 +143,10 @@ $(document).on("click","#bt2",function(){
   $("#bt3").css("color","#FFFFFF");
   $("#bt4").css("color","#FFFFFF");
   $("#bt5").css("color","#FFFFFF");
-  $("#pon1").html("<img alt='GDG IPN' height='60vmax' src='/images/GDG IPN Circle.png' width='150vmax' /><div id='texto'>GDG IPN</div>");
-  $("#pon2").html("<img alt='huawei' height='60vmax' src='/images/HW_POS_RGB_Vertical.jpg' width='150vmax' /><div id='texto'>Huawei</div>");
-  $("#pon3").html("<img alt='ibm' height='60vmax' src='/images/ibm_sfondo.png' width='150vmax' /><div id='texto'>IBM</div>");
-  $("#pon4").html("<img alt='intel' height='60vmax' src='/images/intel.png' width='150vmax' /><div id='texto'>Intel</div>");
+  $("#pon1").html("<img alt='GDG IPN' height='60' src='/images/GDG IPN Circle.png' width='100' /><div id='texto'>GDG IPN</div>");
+  $("#pon2").html("<img alt='huawei' height='90' src='/images/HW_POS_RGB_Vertical.jpg' width='150' /><div id='texto'>Huawei</div>");
+  $("#pon3").html("<img alt='ibm' height='90' src='/images/ibm_sfondo.png' width='150' /><div id='texto'>IBM</div>");
+  $("#pon4").html("<img alt='intel' height='90' src='/images/intel.png' width='150' /><div id='texto'>Intel</div>");
 });
 
 $(document).on("click","#bt3",function(){

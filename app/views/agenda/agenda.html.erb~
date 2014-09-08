@@ -2,7 +2,7 @@
   <div class="col-sm-5" style="background-color:#00C9FF;height:49.6vmax;">
     <div id="lateral">
         Agenda<br>
-        <%= image_tag("iconoagenda.png", :alt => "agenda", :height => "150vmax", :width => "150vmax") %><br>
+        <%= image_tag("iconoagenda.png", :alt => "agenda", :height => "120vmax", :width => "120vmax") %><br>
          <button class="btn2" id="bu1" style="color:#065466;">·</button> 
          <button class="btn2" id="bu2">·</button>
          <button class="btn2" id="bu3">·</button> 
