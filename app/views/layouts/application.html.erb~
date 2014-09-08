@@ -15,7 +15,7 @@ height: auto;
 max-width: 100%;
 }
 button{
-height:2cm;
+height:15vw;
 }
 .btn2{
 border-style:solid;
@@ -72,7 +72,7 @@ height:350px;
 text-align: center;
 }
 #lateral{
-padding-top:4cm;
+padding-top:20vmin;
 font-family:Actor;
 font-size:70pt;
 font-size:10vw;
@@ -265,7 +265,7 @@ $(document).on("click","#bu3",function(){
 $("#bu3").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu1").css("color","#FFFFFF");
-$("#dia").html('<span>19</span><div style="font-size:5vmin;padding-left:7.5cm;line-height:0.4em;position:relative;top:-2.7em;">Posgrado de <br><br><br>Ingeniería<br><br><br>Facultad de <br><br><br>Contaduría y <br><br><br>Administración</div>');
+$("#dia").html('<span>19</span><div style="font-size:3vmin;padding-left:7.5cm;line-height:0.4em;position:relative;top:-2.7em;">Posgrado de <br><br><br>Ingeniería<br><br><br>Facultad de <br><br><br>Contaduría y <br><br><br>Administración</div>');
 $("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Las sociedades son <br><br><br>importantes ¿Por qué?</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>Sociedades FI<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>10:00 - 10:30<br><br></div>');
 $("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning talk 2</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">PROTECO</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:30 - 11:00</div>');
 $("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">OpenStor</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">11:00 - 12:00</div>');
