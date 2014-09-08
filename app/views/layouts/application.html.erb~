@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
   <style>
+
+
 img {
 height: auto;
 max-width: 100%;
@@ -38,7 +40,7 @@ color:#FFFFFF;
 
 .col-sm-6.well{
 text-align: center;
-height:40vh;
+height:30vh;
 width:58vw;
 display: table-cell;
 
@@ -76,7 +78,7 @@ width:100%;
 text-align: center;
 }
 #lateral{
-padding-top:9vmin;
+padding-top:9vh;
 font-family:Actor;
 font-size:70pt;
 font-size:10vw;
@@ -318,20 +320,20 @@ $("#p13").css('visibility','hidden');
 <%= yield %>
 <div class="row">
 
-<div class="col-sm-12" style="background-color:#666666;height:9.5em;">
+<div class="col-sm-12" style="background-color:#666666;height:19.8vh;">
 <div class="row">
 <div class="col-sm-4">
 </div>
-<div class="col-sm-4" style="padding-top:1cm;text-align:center;color:#666666;">
+<div class="col-sm-4" style="padding-top:3vh;text-align:center;color:#666666;">
 <a href='https://twitter.com/SAICFI'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
 <%= "  .  . " %>
 <a href="https://plus.google.com/+Saic-unam/posts"><%= image_tag('googlecontacto.png', :alt => 'google') %></a>
-<div style="padding-top:0.6em;">
+<div style="padding-top:0.6vh;">
 <a href="www.saic-unam.mx">www.saic-unam.mx</a>
 </div>
-<div style="padding-top:0.2em;">
+<div style="padding-top:0.2vh;">
 <a href="mailto:contacto@saic-unam.com">contacto@saic-unam.com</a>
 </div>
 </div>

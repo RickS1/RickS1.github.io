@@ -1,5 +1,5 @@
 <div class="row" style="padding-top:6vmax;">
-  <div class="col-sm-7" style="height:49.6vmax;overflow-y:auto;">
+  <div class="col-sm-7" style="height:69.9vh;overflow-y:auto;">
     <div class="row" style="padding-top:2vmax;">
       <div class="col-sm-6 well" id="pon1" >
         <%= image_tag("031-AMD-C-BLACK.png", :alt => "amd", :width => 150, :height => 90 ) %>
@@ -22,14 +22,14 @@
         </div>
       </div>
       <div class="col-sm-6 well" id="pon4" >
-        <%= image_tag("firefox_logo-only_RGB.png", :alt => "autodesk", :width => "100vmax", :height => "60vmax" ) %>
+        <%= image_tag("firefox_logo-only_RGB.png", :alt => "autodesk", :width => "150", :height => "60vmax" ) %>
         <div id="texto">
          Firefox
         </div>
       </div>
     </div>
   </div>
-  <div class="col-sm-5" style="background-color:#FFEB00;height:49.6vmax;">
+  <div class="col-sm-5" style="background-color:#FFEB00;height:69.6vh;">
     <div id="lateral">
       Ponentes<br>
       <%= image_tag("iconoponentes.png", :alt => "ponentes") %><br>
