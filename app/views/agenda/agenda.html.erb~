@@ -1,5 +1,5 @@
-<div class="row" style="padding-top:3.5%;">
-  <div class="col-sm-5" style="background-color:#00C9FF;height:36.4em;">
+<div class="row">
+  <div class="col-sm-5" style="background-color:#00C9FF;height:38.85em;">
     <div id="lateral">
         Agenda<br>
         <%= image_tag("iconoagenda.png", :alt => "agenda", :height => "120vmax", :width => "120vmax") %><br>
@@ -11,7 +11,7 @@ top:-0.2em;">·</span></button>
 top:-0.2em;">·</span></button> 
     </div>
   </div>
-  <div class="col-sm-7" style="height:80%;padding-top:4vmax;">
+  <div class="col-sm-7" style="height:38.85em;padding-top:5em;">
     <div class="row" style="text-align:center;">
       <div class="col-sm-1">
       </div>
