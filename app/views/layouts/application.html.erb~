@@ -72,7 +72,7 @@ color: #000000;
 font-size: 20pt;
 font-family: Actor;
 padding-top: 1cm;
-height:37vmax;
+height:14em;
 width:100%;
 text-align: center;
 }
@@ -342,11 +342,11 @@ $("#p13").css('visibility','hidden');
 <%= yield %>
 <div class="row">
 
-<div class="col-sm-12" style="background-color:#666666;height:19.8vh;">
+<div class="col-sm-12" style="background-color:#666666;height:9.6em;">
 <div class="row">
 <div class="col-sm-4">
 </div>
-<div class="col-sm-4" style="padding-top:3vh;text-align:center;color:#666666;">
+<div class="col-sm-4" style="padding-top:3em;text-align:center;color:#666666;">
 <a href='https://twitter.com/SAICFI'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
