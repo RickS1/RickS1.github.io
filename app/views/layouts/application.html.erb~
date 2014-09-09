@@ -10,7 +10,9 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Signika">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
   <style>
-
+* { 
+box-sizing: border-box; 
+}
 
 img {
 height: auto;
@@ -63,7 +65,7 @@ color:#FFFFFF;
 #titulo{
 color: #FF0000;
 font-size: 50pt;
-font-size:6vw;
+
 font-family: Actor;
 text-align:center;
 }
