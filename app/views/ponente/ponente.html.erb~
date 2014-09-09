@@ -1,5 +1,5 @@
 <div class="row" style="padding-top:4.3em;">
-  <div class="col-sm-7" style="height:34em;overflow-y:scroll;">
+  <div class="col-sm-7" style="height:34.6em;overflow-y:scroll;">
     <div class="row" style="padding-top:4em;">
       <div class="col-sm-6 well" id="pon1" >
         <%= image_tag("031-AMD-C-BLACK.png", :alt => "amd", :width => 150, :height => 90 ) %>
@@ -34,17 +34,17 @@
       Ponentes<br>
       <%= image_tag("iconoponentes.png", :alt => "ponentes") %><br>
          <button class="btn3" id="bt1" style="color:#5B5904;"><span style="position:relative;
-top:-2vmax;">·</span></button> 
+top:-2em;">·</span></button> 
          <button class="btn3" id="bt2"><span style="position:relative;
-top:-2vmax;">·</span></button>
+top:-1em;">·</span></button>
          <button class="btn3" id="bt3"><span style="position:relative;
-top:-2vmax;">·</span></button>
+top:-1em;">·</span></button>
          <button class="btn3" id="bt4"><span style="position:relative;
-top:-2vmax;">·</span></button>
+top:-1em;">·</span></button>
          <button class="btn3" id="bt5"><span style="position:relative;
-top:-2vmax;">·</span></button>
+top:-1em;">·</span></button>
          <button class="btn3" id="bt6"><span style="position:relative;
-top:-2vmax;">·</span></button>
+top:-1em;">·</span></button>
     </div>
   </div>
 </div>

@@ -355,7 +355,7 @@ $("#p13").css('visibility','hidden');
 <%= yield %>
 <div class="row" style="height:18%;" >
 
-<div class="col-sm-12" style="background-color:#666666;height:18%;text-align:center;padding-top:3%;position:fixed;bottom:0;left:0; width:100%;">
+<div class="col-sm-12" style="background-color:#666666;height:18%;text-align:center;padding-top:3%;position:fixed;bottom:0;left:0; width:100%;color:#666666;">
 <a href='https://twitter.com/SAICFI'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
