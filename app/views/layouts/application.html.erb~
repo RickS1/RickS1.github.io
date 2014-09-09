@@ -11,7 +11,10 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&v1">
   <style>
 * { 
-box-sizing: border-box; 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
 }
 
 img {
@@ -342,13 +345,9 @@ $("#p13").css('visibility','hidden');
 </nav>
 
 <%= yield %>
-<div class="row">
+<div class="row" >
 
-<div class="col-sm-12" style="background-color:#666666;height:9.6em;">
-<div class="row">
-<div class="col-sm-4">
-</div>
-<div class="col-sm-4" style="padding-top:3em;text-align:center;color:#666666;">
+<div class="col-sm-12" style="background-color:#666666;height:9.6em;text-align:center;">
 <a href='https://twitter.com/SAICFI'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
@@ -359,10 +358,6 @@ $("#p13").css('visibility','hidden');
 </div>
 <div style="padding-top:0.2vh;">
 <a href="mailto:contacto@saic-unam.com">contacto@saic-unam.com</a>
-</div>
-</div>
-<div class="col-sm-4">
-</div>
 </div>
 </div>
 
