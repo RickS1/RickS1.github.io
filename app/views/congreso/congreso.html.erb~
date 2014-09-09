@@ -4,13 +4,13 @@
      Congreso<br>
        <%= image_tag("logopantallacongreso.png", :alt => "pyc") %><br>
        <button class="btn1" id="b1" style="color:#840606;"><span style="position:relative;
-top:-2vmax;">·</span></button> 
+top:-0.2em;">·</span></button> 
        <button class="btn1" id="b2"><span style="position:relative;
-top:-2vmax;">·</span></button>
+top:-0.2em;">·</span></button>
        <button class="btn1" id="b3"><span style="position:relative;
-top:-2vmax;">·</span></button>
+top:-0.2em;">·</span></button>
        <button class="btn1" id="b4"><span style="position:relative;
-top:-2vmax;">·</span></button> 
+top:-2em;">·</span></button> 
     </div>
   </div>
   <div class="col-sm-7" style="height:37.4em;text-align:center;">
