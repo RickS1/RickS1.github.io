@@ -71,9 +71,9 @@ font-size:10vmax;
 color:#FFFFFF;
 }
 #titulo{
+padding-top:1em;
 color: #FF0000;
 font-size: 50pt;
-
 font-family: Actor;
 text-align:center;
 }
@@ -82,12 +82,12 @@ color: #000000;
 font-size: 20pt;
 font-family: Actor;
 padding-top: 1cm;
-height:14em;
-width:100%;
+height:13em;
+width:95%;
 text-align: center;
 }
 #lateral{
-padding-top:13vh;
+padding-top:23%;
 font-family:Actor;
 font-size:70pt;
 font-size:10vw;
@@ -323,6 +323,8 @@ $("#p13").css('visibility','hidden');
 </script>
 </head>
 <body <%= yield :body %>>
+<div class="row">
+<div class="col-sm-12">
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
      <div class="navbar-header">
@@ -348,11 +350,12 @@ $("#p13").css('visibility','hidden');
   </div>
   </div>
 </nav>
-
+</div>
+</div>
 <%= yield %>
-<div class="row" >
+<div class="row" style="height:18%;" >
 
-<div class="col-sm-12" style="background-color:#666666;height:9.6em;text-align:center;padding-top:2em;position:relative;bottom:0;left:0; width:100%;">
+<div class="col-sm-12" style="background-color:#666666;height:18%;text-align:center;padding-top:3%;position:fixed;bottom:0;left:0; width:100%;color:#666666;">
 <a href='https://twitter.com/SAICFI'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
