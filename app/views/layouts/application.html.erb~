@@ -37,7 +37,6 @@ font-family:Actor;
 font-size:10vmax;
 color:#FFFFFF;
 }
-
 .col-sm-6.well{
 text-align: center;
 height:30vh;
@@ -78,7 +77,7 @@ width:100%;
 text-align: center;
 }
 #lateral{
-padding-top:9vh;
+padding-top:13vh;
 font-family:Actor;
 font-size:70pt;
 font-size:10vw;
@@ -133,6 +132,7 @@ $(document).on("click","#bt1",function(){
   $("#bt3").css("color","#FFFFFF");
   $("#bt4").css("color","#FFFFFF");
   $("#bt5").css("color","#FFFFFF");
+  $("#bt6").css("color","#FFFFFF");
   $("#pon1").html("<img alt='amd' height='90' src='/images/031-AMD-C-BLACK.png' width='150' /><div id='texto'>AMD</div>");
   $("#pon2").html("<br><img alt='autodesk' height='90' src='/images/Autodesk_Logo.png' width='150' /><div id='texto'>Autodesk</div>");
   $("#pon3").html("<img alt='cisco' height='90' src='/images/cisco_logo.png' width='150' /><div id='texto'>Cisco</div>");
@@ -145,7 +145,8 @@ $(document).on("click","#bt2",function(){
   $("#bt3").css("color","#FFFFFF");
   $("#bt4").css("color","#FFFFFF");
   $("#bt5").css("color","#FFFFFF");
-  $("#pon1").html("<img alt='GDG IPN' height='60' src='/images/GDG IPN Circle.png' width='100' /><div id='texto'>GDG IPN</div>");
+  $("#bt6").css("color","#FFFFFF");
+  $("#pon1").html("<img alt='GDG IPN' height='60' src='/images/GDG IPN Circle.png' width='150' /><div id='texto'>GDG IPN</div>");
   $("#pon2").html("<img alt='huawei' height='90' src='/images/HW_POS_RGB_Vertical.jpg' width='150' /><div id='texto'>Huawei</div>");
   $("#pon3").html("<img alt='ibm' height='90' src='/images/ibm_sfondo.png' width='150' /><div id='texto'>IBM</div>");
   $("#pon4").html("<img alt='intel' height='90' src='/images/intel.png' width='150' /><div id='texto'>Intel</div>");
@@ -157,6 +158,7 @@ $(document).on("click","#bt3",function(){
   $("#bt2").css("color","#FFFFFF");
   $("#bt4").css("color","#FFFFFF");
   $("#bt5").css("color","#FFFFFF");
+  $("#bt6").css("color","#FFFFFF");
   $("#pon1").html("<img alt='google' height='90' src='/images/Logo_2013_Google.png' width='150' /><div id='texto'>Google</div>");
   $("#pon2").html("<img alt='ctin' height='90' src='/images/Logo CTIN SAIC.png' width='150' /><div id='texto'>CTIN</div>");
   $("#pon3").html("<img alt='dsa' height='90' src='/images/logoDSA.png' width='150' /><div id='texto'>DSA</div>");
@@ -169,18 +171,38 @@ $(document).on("click","#bt4",function(){
   $("#bt3").css("color","#FFFFFF");
   $("#bt1").css("color","#FFFFFF");
   $("#bt5").css("color","#FFFFFF");
-  $("#pon1").html("<img alt='microsoft' height='90' src='/images/microsoft.png' width='150' /><div id='texto'>Microsoft</div>");
-  $("#pon2").html("<img alt='opensuse' height='90' src='/images/openSUSE_logo.png' width='150' /><div id='texto'>openSUSE</div>");
-  $("#pon3").html("<img alt='oracle' height='90' src='/images/Oracle.png' width='150' /><div id='texto'>Oracle</div>");
-  $("#pon4").html("<img alt='gsa' height='90' src='/images/Student_Ambassador_Icon.png' width='150' /><div id='texto'>Google Student Ambassador</div>");
+  $("#bt6").css("color","#FFFFFF");
+  $("#pon1").html("<img alt='dgose' height='90' src='/images/dgose1.png' width='150' /><div id='texto'>DGOSE</div>");
+  $("#pon2").html("<img alt='emc2' height='90' src='/images/EMC-no-tag-blue[1].png' width='150' /><div id='texto'>EMC2</div>");
+  $("#pon3").html("<img alt='innova' height='90' src='/images/InnovaUNAM.jpg' width='150' /><div id='texto'>InnovaUNAM</div>");
+  $("#pon4").html("<img alt='mejorandola' height='90' src='/images/mejorandola_logo-(2).png' width='150' /><div id='texto'>Mejorando.la</div>");
 });
 
 $(document).on("click","#bt5",function(){
   $("#bt5").css("color","#5B5904");
   $("#bt2").css("color","#FFFFFF");
   $("#bt3").css("color","#FFFFFF");
+  $("#bt1").css("color","#FFFFFF");
   $("#bt4").css("color","#FFFFFF");
-  $("#bt1").css("color","#FFFFFF");});
+  $("#bt6").css("color","#FFFFFF");
+  $("#pon1").html("<img alt='microsoft' height='90' src='/images/microsoft.png' width='150' /><div id='texto'>Microsoft</div>");
+  $("#pon2").html("<img alt='opensuse' height='90' src='/images/openSUSE_logo.png' width='150' /><div id='texto'>openSUSE</div>");
+  $("#pon3").html("<img alt='oracle' height='90' src='/images/Oracle.png' width='150' /><div id='texto'>Oracle</div>");
+  $("#pon4").html("<img alt='gsa' height='90' src='/images/Student_Ambassador_Icon.png' width='150' /><div id='texto'>Google Student Ambassador</div>");
+});
+
+$(document).on("click","#bt6",function(){
+  $("#bt6").css("color","#5B5904");
+  $("#bt2").css("color","#FFFFFF");
+  $("#bt3").css("color","#FFFFFF");
+  $("#bt1").css("color","#FFFFFF");
+  $("#bt4").css("color","#FFFFFF");
+  $("#bt5").css("color","#FFFFFF");
+  $("#pon1").html("<img alt='eaa' height='90' src='/images/EAA_logo_hi_res.jpg' width='150' /><div id='texto'>EAA</div>");
+  $("#pon2").html("<img alt='fc' height='90' src='/images/LogoFC.svg' width='150' /><div id='texto'>Facultad de Ciencias</div>");
+  $("#pon3").html("<img alt='fca' height='90' src='/images/LogoFCA.svg' width='150' /><div id='texto'>Facultad de Contaduría y Administración</div>");
+  $("#pon4").html("<img alt='fi' height='90' src='/images/LogoFI.svg' width='150' /><div id='texto'>Facultad de Ingeniería</div>");
+});
 
 $(document).on("mouseover","div",function(){
  if (activo == false) { 
@@ -230,13 +252,13 @@ $(document).on("click","#bu1",function(){
 $("#bu1").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu3").css("color","#FFFFFF");
-$("#dia").html('<span>17</span><div style="font-size:5vmin;padding-left:30vmax;line-height:0.4em;position:relative;top:-1.5em;">Facultad <br><br><br>de <br><br><br>Ciencias</div>');
+$("#dia").html('<span>17</span><div style="font-size:5vmin;padding-left:33vmax;line-height:0.4em;position:relative;top:-2em;">Facultad <br><br><br>de <br><br><br>Ciencias</div>');
 $("#p1").html('      <div class="col-xs-4 well well-sm" style="line-height:0.4em;">Presentación Punto y Coma</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">SAIC</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">09:00 - 10:00</div>');
 $("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Inauguración</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">UNAM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
 $("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">IBM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:30 - 11:30</div>');
 $("#p4").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Mesa redonda</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Comité de Ciencias</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">11:30 - 12:00</div>');
 $("#p5").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Microsoft</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">12:00 - 13:00</div>');
-$("#p6").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning talk 30 min</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">SODVI</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">13:00 - 13:30</div>');
+$("#p6").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Hacer un videojuego no es<br><br><br> un juego</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>SODVI<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>13:00 - 13:30<br><br></div>');
 $("#p7").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">DSA Soluciones</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">13:30 - 14:00</div>');
 $("#p8").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Linux en tu vida cotidiana...<br><br><br> ¡Bienvenidos a la Matrix!</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>OpenSUSE<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>14:00 - 14:30<br><br></div>');
 $("#p9").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning  talk 2 30 min</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">GSA UNAM</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">14:30 - 15:00</div>');
@@ -253,11 +275,11 @@ $(document).on("click","#bu2",function(){
 $("#bu2").css("color","#065466");
 $("#bu1").css("color","#FFFFFF");
 $("#bu3").css("color","#FFFFFF");
-$("#dia").html('<span>18</span><div style="font-size:5vmin;padding-left:30vmax;line-height:0.4em;position:relative;top:-1.5em;">Facultad<br><br><br> de<br><br><br> Ingeniería</div>');
+$("#dia").html('<span>18</span><div style="font-size:5vmin;padding-left:33vmax;line-height:0.4em;position:relative;top:-2em;">Facultad<br><br><br> de<br><br><br> Ingeniería</div>');
 $("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning talk 1</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Tech MX</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
-$("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lab PLC</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:30 - 11:00</div>');
+$("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Gobierno Abierto</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lab PLC</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:30 - 11:00</div>');
 $("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Internet de las cosas y<br><br><br> wearables</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>Intel<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>11:00 - 12:00<br><br></div>');
-$("#p4").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Mejorando.la</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">12:00 - 13:00</div>');
+$("#p4").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Profesionales web: El perfil<br><br><br> más importante en<br><br><br> nuestros tiempos</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>Mejorando.la<br><br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br><br><br>12:00 - 13:00<br><br><br></div>');
 $("#p5").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Arquitectura de Sistemas <br><br><br>Heterogéneos (HSA)</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>AMD<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>13:00 - 14:00<br><br></div>');
 $("#p6").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">El Marketing digital</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Google</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">14:00 - 15:00</div>');
 $("#p7").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Oracle</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">15:00 - 16:00</div>');
@@ -272,10 +294,10 @@ $(document).on("click","#bu3",function(){
 $("#bu3").css("color","#065466");
 $("#bu2").css("color","#FFFFFF");
 $("#bu1").css("color","#FFFFFF");
-$("#dia").html('<span>19</span><div style="font-size:3vmin;padding-left:30vmax;line-height:0.4em;position:relative;top:-2.7em;">Posgrado de <br><br><br>Ingeniería<br><br><br>Facultad de <br><br><br>Contaduría y <br><br><br>Administración</div>');
-$("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Las sociedades son <br><br><br>importantes ¿Por qué?</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>Sociedades FI<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>10:00 - 10:30<br><br></div>');
+$("#dia").html('<span>19</span><div style="font-size:5vmin;padding-left:33vmax;line-height:0.4em;position:relative;top:-2em;">Posgrado<br><br><br> de <br><br><br>Ingeniería</div>');
+$("#p1").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Código CDMX</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lab PLC</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:00 - 10:30</div>');
 $("#p2").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Lightning talk 2</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">PROTECO</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">10:30 - 11:00</div>');
-$("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">OpenStor</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">11:00 - 12:00</div>');
+$("#p3").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Redefine IT</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">EMC2 Academic Alliance</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">11:00 - 12:00</div>');
 $("#p4").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Pendiente</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">Itera</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;">12:00 - 12:30</div>');
 $("#p5").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Tecnologías de la<br><br><br> Información en México</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>CTIN<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>12:30 - 13:30<br><br></div>');
 $("#p6").html('<div class="col-xs-4 well well-sm" style="line-height:0.4em;">Herramientas para el empleo,<br><br><br>profesionales de TI</div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>Bolsa de trabajo DGOSE<br><br></div><div class="col-xs-4 well well-sm" style="line-height:0.4em;"><br><br>13:30 - 14:30<br><br></div>');
@@ -331,7 +353,7 @@ $("#p13").css('visibility','hidden');
 <%= "  .  . " %>
 <a href="https://plus.google.com/+Saic-unam/posts"><%= image_tag('googlecontacto.png', :alt => 'google') %></a>
 <div style="padding-top:0.6vh;">
-<a href="www.saic-unam.mx">www.saic-unam.mx</a>
+<a href="http://www.saic-unam.com">www.saic-unam.com</a>
 </div>
 <div style="padding-top:0.2vh;">
 <a href="mailto:contacto@saic-unam.com">contacto@saic-unam.com</a>
