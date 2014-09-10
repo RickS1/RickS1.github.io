@@ -1,19 +1,19 @@
 <div class="row">
-  <div class="col-sm-5" style="background-color:#00C9FF;height:38.85em;">
+  <div class="col-sm-5" style="background-color:#00C9FF;height:38.5em;">
     <div id="lateral">
         Agenda<br>
         <%= image_tag("iconoagenda.png", :alt => "agenda", :height => "120vmax", :width => "120vmax") %><br>
-         <button class="btn2" id="bu1" style="color:#065466;"><span>·</span></button> 
-         <button class="btn2" id="bu2"><span>·</span></button>
-         <button class="btn2" id="bu3"><span>·</span></button> 
+         <button class="btn2" id="bu1" style="color:#065466;"><span class="bot">·</span></button> 
+         <button class="btn2" id="bu2"><span class="bot">·</span></button>
+         <button class="btn2" id="bu3"><span class="bot">·</span></button> 
     </div>
   </div>
-  <div class="col-sm-7" style="height:38.85em;padding-top:6em;">
+  <div class="col-sm-7" style="height:38.5em;padding-top:6em;">
     <div class="row" style="text-align:center;">
       <div class="col-sm-1">
       </div>
       <div class="col-sm-10 well" style="font-family:Actor;color:#065466;font-size:15vmax;height:18vmax;line-height:0.5em;" id="dia">
-        <span id="num">17</span>
+        <span>17</span>
         <div style="font-size:5vmin;padding-left:33vmax;line-height:0.4em;position:relative;top:-2em;">
           Facultad <br><br><br>de <br><br><br>Ciencias
         </div>

@@ -31,8 +31,7 @@ max-width: 100%;
 }
 button{
 height:1cm;
-position:relative;
-top:-0.4em;
+
 }
 .btn2{
 border-style:solid;
@@ -86,15 +85,15 @@ color: #000000;
 font-size: 20pt;
 font-family: Actor;
 padding-top: 1cm;
-height:13em;
+height:15em;
 width:95%;
 text-align: center;
 }
 #lateral{
-padding-top:23%;
+padding-top:40%;
 font-family:Actor;
 font-size:70pt;
-font-size:10vw;
+font-size:10vmax;
 text-align:center;
 color:#FFFFFF;
 }
@@ -357,9 +356,9 @@ $("#p13").css('visibility','hidden');
 </div>
 </div>
 <%= yield %>
-<div class="row" style="height:18%;" >
+<div class="row" style="height:9em;" >
 
-<div class="col-sm-12" style="background-color:#666666;height:18%;text-align:center;padding-top:3%;position:fixed;bottom:0;left:0; width:100%;color:#666666;">
+<div class="col-sm-12" style="background-color:#666666;height:9em;text-align:center;padding-top:3%;position:relative;bottom:0;left:0; width:100%;color:#666666;">
 <a href='https://twitter.com/SAICFI'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
