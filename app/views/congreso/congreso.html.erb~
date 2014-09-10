@@ -1,5 +1,5 @@
-<div class="row" >
-  <div class="col-sm-5 " style="background-color:#FF0000;height:38.5em;">
+<div class="row primero">
+  <div class="col-sm-5 " style="background-color:#FF0000;height:34em;">
     <div id="lateral">
      Congreso<br>
        <%= image_tag("logopantallacongreso.png", :alt => "pyc") %><br>
@@ -9,7 +9,7 @@
        <button class="btn1" id="b4"><span class="bot">·</span></button> 
     </div>
   </div>
-  <div class="col-sm-7" style="height:38.5em;text-align:center;">
+  <div class="col-sm-7" style="height:34em;text-align:center;">
     <div id="titulo">Ubicación
     </div>
     <div id="contenido">
