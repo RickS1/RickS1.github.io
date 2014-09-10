@@ -85,7 +85,7 @@ color: #000000;
 font-size: 20pt;
 font-family: Actor;
 padding-top: 1cm;
-height:15em;
+height:13em;
 width:95%;
 text-align: center;
 }
