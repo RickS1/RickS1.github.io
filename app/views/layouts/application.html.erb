@@ -66,7 +66,8 @@ display: table-cell;
 }
 
 .row.primero{
-padding-top:4.2em;
+padding-top:4.1em;
+height:100%;
 }
 
 .btn1{
@@ -87,8 +88,7 @@ text-align:center;
 color: #000000;
 font-size: 20pt;
 font-family: Actor;
-padding-top: 1cm;
-height:13em;
+height:9em;
 width:95%;
 text-align: center;
 }
@@ -236,7 +236,7 @@ function initialize() {
        var myLatlng3 = new google.maps.LatLng(19.325389, -99.184069); 
        var myLatlng4 = new google.maps.LatLng(19.328239, -99.181566);
 	   var mapOptions = {
-		  zoom: 15,
+		  zoom: 14,
 		  center: myLatlng5,
 		  mapTypeId: google.maps.MapTypeId.ROADMAP,
 		}
@@ -360,9 +360,9 @@ $("#p13").css('visibility','hidden');
 </div>
 </div>
 <%= yield %>
-<div class="row" style="height:9em;" >
+<div class="row">
 
-<div class="col-sm-12" style="background-color:#666666;height:9em;text-align:center;padding-top:3%;position:fixed;bottom:0;left:0; width:100%;color:#666666;">
+<div class="col-sm-12" style="background-color:#666666;height:8em;text-align:center;padding-top:3%;position:fixed;bottom:0;left:0; width:100%;color:#666666;">
 <a href='https://twitter.com/SAICFI'><%= image_tag('twittercontacto.png', :alt => 'twitter') %></a>
 <%= "  .  . " %>
 <a href="https://www.facebook.com/SAICFI"><%= image_tag('facebookcontacto.png', :alt => 'facebook') %></a>
