@@ -93,7 +93,8 @@ width:95%;
 text-align: center;
 }
 #lateral{
-padding-top:30%;
+height:100%%;
+padding-top:25%;
 font-family:Actor;
 font-size:70pt;
 font-size:10vmax;
